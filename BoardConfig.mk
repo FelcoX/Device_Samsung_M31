@@ -18,6 +18,7 @@ DEVICE_PATH := device/samsung/m31
 
 # Inherit from the common tree
 include device/samsung/universal9611-common/BoardConfigCommon.mk
+
 # Inherit optional vendor BoardConfig
 -include vendor/samsung/m31/BoardConfigVendor.mk
 
@@ -32,9 +33,6 @@ BOARD_CACHEIMAGE_PARTITION_SIZE := 209715200
 
 ## Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,4,20,23,50,52,54)
-
-## Filesystem config
-include device/samsung/universal9611-common/fsconfig_dynamic.mk
 
 ## Prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
