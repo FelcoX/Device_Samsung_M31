@@ -1,8 +1,6 @@
-# Enable ScrollOptimizer globally
-persist.sys.perf.scroll_opt = true
-
-# Heavy app handling mode
-# 0 - Disable heavy app classification
-# 1 - Enable dynamic detection
-# 2 - Treat all apps as heavy for performance
-persist.sys.perf.scroll_opt.heavy_app = 2
+## InfinityX
+ro.product.marketname=Samsung Galaxy M31
+ro.infinity.soc=Exynos® 9611
+ro.infinity.battery=6000 mAh
+ro.infinity.display=1080 x 2340, 60Hz
+ro.infinity.camera=64MP + 8MP + 5MP + 5MP

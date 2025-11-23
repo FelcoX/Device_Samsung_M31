@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m31.mk
+    $(LOCAL_DIR)/infinity_m31.mk
