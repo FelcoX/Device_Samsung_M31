@@ -30,6 +30,9 @@ DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
+# Speed profile services and wifi-service
+PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
+
 # V32
 PRODUCT_PACKAGES += libutils-v32
 

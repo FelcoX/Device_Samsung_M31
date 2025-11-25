@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m31.mk
+    $(LOCAL_DIR)/infinity_m31.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_m31-userdebug \
-    lineage_m31-user \
-    lineage_m31-eng
+    infinity_m31-userdebug \
+    infinity_m31-user \
+    infinity_m31-eng
