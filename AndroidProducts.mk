@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m31.mk
+    $(LOCAL_DIR)/voltage_m31.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_m31-userdebug \
-    lineage_m31-user \
-    lineage_m31-eng
+    voltage_m31-userdebug \
+    voltage_m31-user \
+    voltage_m31-eng
