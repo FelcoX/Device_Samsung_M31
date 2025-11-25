@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m31.mk
+    $(LOCAL_DIR)/euclid_m31.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_m31-userdebug \
-    lineage_m31-user \
-    lineage_m31-eng
+    euclid_m31-userdebug \
+    euclid_m31-user \
+    euclid_m31-eng

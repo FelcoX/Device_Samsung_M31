@@ -36,4 +36,3 @@ $(call soong_config_set,samsungCameraVars,extra_ids,4,20,23,50,52,54)
 
 ## Prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
