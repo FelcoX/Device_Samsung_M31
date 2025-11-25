@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_m31.mk
+    $(LOCAL_DIR)/cherish_m31.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_m31-userdebug \
-    lineage_m31-user \
-    lineage_m31-eng
+    cherish_m31-userdebug \
+    cherish_m31-user \
+    cherish_m31-eng

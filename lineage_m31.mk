@@ -18,8 +18,8 @@
 $(call inherit-product, device/samsung/m31/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+## Inherit some common Cherish stuff
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
@@ -33,7 +33,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 	BuildFingerprint="samsung/m31nsxx/m31:12/SP1A.210812.016/M315FXXU3CWA2:user/release-keys"
 
 ## Device configuration
-PRODUCT_NAME := lineage_m31
+PRODUCT_NAME := cherish_m31
 PRODUCT_DEVICE := m31
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-M315F
@@ -41,17 +41,13 @@ PRODUCT_MANUFACTURER := samsung
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# AxionOS Flags
-TARGET_ENABLE_BLUR := true
-TARGET_INCLUDE_VIPERFX := false
-AXION_CAMERA_REAR_INFO := 64,8,2,2
-AXION_CAMERA_FRONT_INFO := 32
-AXION_MAINTAINER := PARBINDAR7
-AXION_PROCESSOR := Exynos®_9611
-BYPASS_CHARGE_SUPPORTED := false
-TORCH_STR_SUPPORTED := true
-TARGET_INCLUDES_LOS_PREBUILTS := true
-PRODUCT_NO_CAMERA := false
+# CherishOS Flags
+TARGET_HAS_UDFPS := false
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.cherish.maintainer=PARBINDAR7
 
 # Signing configuration
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/releasekey
